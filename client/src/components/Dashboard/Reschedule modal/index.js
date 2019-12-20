@@ -1,5 +1,4 @@
 import React, { useState, useContext } from "react";
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
@@ -7,9 +6,7 @@ import { StoreContext } from '../../../utils/GlobalState';
 import axios from 'axios';
 import API from "../../../utils/API";
 import { UPDATE_TIME, GRAB_USER_ROUTINE } from "../../../utils/actions";
-//import { thisExpression } from "@babel/types";
 
-// require("react-bootstrap/ModalHeader")
 
 function RescheduleModal(props) {
 

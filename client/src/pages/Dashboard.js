@@ -1,10 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import NavAfterLogin from "../components/Nav (afterlogin)/index";
 import Calendarbar from "../components/Dashboard/Calendarbar";
 import Medsnottaken from "../components/Dashboard/Medsnottaken/index";
 import { Row, Col } from 'react-bootstrap';
 import { StoreContext } from './../utils/GlobalState';
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 
 function Dashboard() {

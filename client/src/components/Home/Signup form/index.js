@@ -1,7 +1,6 @@
 import React, { useContext, useRef } from "react";
 import { StoreContext } from "../../../utils/GlobalState";
 import ApiCalls from "../../../utils/API"
-// import usersignup from "../../../../../routes/user-api";
 import { USER_SIGN_UP, GRAB_USER_ROUTINE, LOGGED_TO_TRUE } from "../../../utils/actions";
 import axios from "axios";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";

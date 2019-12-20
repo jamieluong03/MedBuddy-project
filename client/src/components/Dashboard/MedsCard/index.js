@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import Reschedule from "../Reschedule modal/index";
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from "react-bootstrap";
 import API from "../../../utils/API";
 import { UPDATE_STATUS, UPDATE_ROUTINE, GRAB_USER_ROUTINE } from "../../../utils/actions";

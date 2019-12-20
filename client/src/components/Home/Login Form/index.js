@@ -1,17 +1,8 @@
-import React, { useContext, useRef, Component, useEffect, useState } from "react";
-// import ApiCalls from "../../../utils/API";
+import React, { useContext, useRef, useState } from "react";
 import axios from "axios";
 import { GRAB_USER_INFO, GRAB_USER_ROUTINE, LOGGED_TO_TRUE } from "../../../utils/actions";
 import { StoreContext } from "../../../utils/GlobalState";
-//import { push } from 'react-router-redux';
-//import { Redirect } from "react-router-dom";
-//import history from "../../../App"
-//import Dashboard from "../../../pages/Dashboard";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-//import { hostname } from "os";
-//import { NavLink } from "react-bootstrap";
-//import { createRequireFromPath } from "module";
-//import { browserHistory } from 'react-router';
 
 function LoginForm() {
 

@@ -1,13 +1,7 @@
 import React from "react";
-// import { useStoreContext } from "../../utils/GlobalState";
-
-// import { Navbar, Nav, Button } from 'react-bootstrap';
-// import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import { Link } from 'react-router-dom'
-import { StoreContext } from "../../utils/GlobalState"
-import { Router, Route } from 'react-router'
 
-import { Navbar, Nav, Brand, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
 
 function NavAfterLogin() {
