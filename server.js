@@ -28,6 +28,16 @@ require("./routes/medRoutine-api.js")(app);
 require("./routes/user-api.js")(app);
 
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+  
+};
+
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});;
+
+
 // Syncing our database and logging a message to the user upon success
 db.sequelize.sync({ force: false }).then(function() {
   app.listen(PORT, function() {
