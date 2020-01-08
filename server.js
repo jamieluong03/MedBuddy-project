@@ -27,6 +27,19 @@ require("./routes/medLog-api.js")(app);
 require("./routes/medRoutine-api.js")(app);
 require("./routes/user-api.js")(app);
 
+var mysql = require('mysql');
+var connection = mysql.createConnection(process.env.JAWSDB_URL);
+
+connection.connect();
+
+connection.query("connecting", function (err, rows, fields) {
+  if (err) throw err;
+
+  console.log('Solution', rows[0].solution);
+});
+
+connection.end();
+
 
 // Syncing our database and logging a message to the user upon success
 db.sequelize.sync({ force: false }).then(function() {
