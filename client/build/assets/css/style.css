@@ -1,0 +1,245 @@
+.bg-img {
+    /* The image used */
+    background-image: url("../../graphic.png");
+  
+    /* Full height */
+    /* height: 100%;  */
+   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nav-color {
+    /* background-color: #4e7ac7; */
+    background-color: #2e3192;
+  }
+#currenttime {
+  float: right;
+  border: none;
+  margin: none;
+}
+
+#clickedday {
+  float: left;
+  border: none;
+  margin: none;
+}
+  #button-blue {
+ background-color: #2e3192;
+  }
+#bluebtn{
+  background-color: #2e3192;
+}
+
+  .text-color {
+    color: #2e3192;
+  }
+
+ /* .calendarbartext {
+    color: #2e3192;
+  } */
+  #border {
+    border-width: 10px;
+    border-color: #2e3192;
+  }
+
+
+  #welcometo {
+    font-size: 45pt;
+    color: white;
+    margin-top: 45px;
+  }
+  #medbuddy {
+    font-size: 45pt;
+    color: white;
+    margin-bottom: -10px;
+  }
+
+#contentcenter {
+  margin-right: 200px;
+}
+  .center {
+    justify-content: center;
+  }
+ 
+  /* #healthandwellness{
+    padding-right: 38px;
+  } */
+
+#login{
+  margin-top: 25px; 
+}
+
+#border1 {
+  margin-bottom: 45px;
+  border-width: 10px;
+  border-color: #2e3192;
+}
+/* #navpublic{
+  padding-left: 63px;
+} */
+#healthandwellness{
+  margin-left: 5px;
+}
+#signup{
+  margin-left: 5px;
+}
+
+#medsihavetotakecard, #medstakencard, #healthcards, #bluecard {
+  background-color: #dbdfeb;
+}
+#margin,  #bluecard{
+  margin: 0px;
+  background-color: #dbdfeb;
+}
+#bluebtn-addmed{
+  background-color: #2e3192;
+  margin-left: -13px;
+  color: white;
+  outline: none !important;
+  display:block;
+}
+#addmed{
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+  outline: none !important;
+  /* border:0px solid transparent; */
+  display:block;
+}
+#toast-alert{
+  margin-bottom: 0;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  #welcometo {
+    font-size: 45pt;
+    color: white;
+  }
+  #medbuddy {
+    font-size: 45pt;
+    color: white;
+  }
+  #login{
+    /* margin-left: -241px; */
+    margin-top: 25px; 
+    
+  }
+  #contentcenter {
+    margin-right: 200px;
+  }
+  /* #logout{
+    margin-right: -100px;
+  } */
+}
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  #welcometo {
+    font-size: 30pt;
+    color: white;
+    margin-top: 30px;
+  }
+  #medbuddy {
+    font-size: 30pt;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: -10px;
+  }
+  #contentcenter {
+    margin-right: 0px;
+    margin-left: -25px;
+  }
+#border1 {
+  height: 80%;
+  margin-bottom: 40px;
+  border-width: 10px;
+  border-color: #2e3192;
+}
+/* #nav-loging{
+  margin-left: 14px;
+}
+.logout{
+  margin-left: 14px;
+} */
+
+#medsivetaken, #clickedday {
+  font-size: 25pt;
+  }
+  
+  #medsihavetotake {
+    font-size: 25pt;
+  }
+  
+  #drugname, #drugcon, #dosage, #nameofdrug {
+    font-size: 16pt;
+  }
+
+#healthandwellness{
+  margin-left: 5px;
+}
+#signup{
+  margin-left: 5px;
+}
+
+}
+  /*small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  #welcometo {
+    font-size: 30pt;
+    color: #2e3192;
+  }
+  #medbuddy {
+    font-size: 30pt;
+    color: #2e3192;
+  }
+ 
+  .bg-img {
+    background-image: none;
+  }
+
+  #jumbotron {
+    background-color:white;
+  }
+
+  #border1{
+    padding: 12px;
+    border-width: 10px;
+    border-color: #2e3192;
+  }
+
+  #contentcenter {
+    margin: 0;
+  }
+  /* #nav-loging{
+    margin-left: 14px;
+  }
+.logout{
+  margin-left: 14px;
+} */
+#healthwellness {
+  font-size: 25pt;
+}
+#medsivetaken, #clickedday {
+font-size: 18pt;
+}
+
+#currenttime {
+  margin-right: -30px;
+  margin-bottom: -20px;
+}
+#medsihavetotake {
+  font-size: 18pt;
+}
+
+#drugname, #drugcon, #dosage, #nameofdrug, #time {
+  font-size: 12pt;
+}
+
+.complete1 {
+transform: scale(.7)
+}
+}
