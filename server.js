@@ -38,6 +38,19 @@ if (process.env.NODE_ENV === 'production') {
 
 };
 
+const mysql = require('mysql');
+const connection = mysql.createConnection({
+host: 'localhost',
+user:'root',
+password:'myjs123',//password of your mysql db
+database:'simple-react-sql-db'
+});
+
+connection.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+
 
 // Syncing our database and logging a message to the user upon success
 db.sequelize.sync({ force: false }).then(function() {
